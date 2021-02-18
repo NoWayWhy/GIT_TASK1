@@ -4,5 +4,5 @@ class Taxi(Transportation):
         self.rate = 40
         
     def find_cost(self):
-        self.cost = super().getD() * self.rate
+        self.cost = self.distance * self.rate
         return self.cost
